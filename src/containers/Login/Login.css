@@ -1,0 +1,73 @@
+.Login {
+  height: 100vh;
+}
+
+.Login img {
+  height: 75px;
+  width: 178px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.LoginCard1 {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #fff;
+  padding: 40px 38px 40px;
+
+}
+
+.LoginCard1 form>* {
+  margin-top: 25px;
+}
+
+.LoginCard1 form span {
+  color: red;
+  font-size: 13px;
+}
+
+.LoginCard1 button {
+  margin-top: 25px;
+}
+
+.textField {
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.textField input {
+  color: white;
+}
+
+.HorizontalDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .LoginCard1 {
+    width: 450px;
+
+    padding: 60px 68px 40px;
+    margin: auto;
+  }
+}
+
+@media(min-width: 1650px) {
+  .LoginCard1 {
+    width: 550px;
+
+    padding: 60px 68px 40px;
+    margin: auto;
+  }
+
+  .LoginCard1 form span {
+    font-size: 20px;
+  }
+}

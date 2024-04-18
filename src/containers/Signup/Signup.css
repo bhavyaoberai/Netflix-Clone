@@ -1,0 +1,77 @@
+.Signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.Signup img {
+    height: 75px;
+    width: 178px;
+    margin-left: 20px;
+}
+
+.Signup p {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.SignupCard{
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    padding: 40px 38px 40px;
+    margin: auto;
+}
+
+.SignupCard__title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.SignupCard__email{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+
+.SignupCard__email span {
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SignupCard form > * {
+    margin-top: 25px;
+}
+
+.textField {
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.textField input {
+    color: black;
+}
+
+.SignupCard__error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .SignupCard {
+        width: 100%;
+    }
+}
